@@ -1,0 +1,1 @@
+VS Code is a source code editor that helps developers write, organize, debug, and manage code. It provides tools that make software development easier, but it does not execute Python programs itself.
