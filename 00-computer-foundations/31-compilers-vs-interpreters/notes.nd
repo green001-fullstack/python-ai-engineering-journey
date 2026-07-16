@@ -1,0 +1,28 @@
+A compiler translates an entire program into another form before execution.
+
+That "other form" might be:
+
+Machine code (Go, C)
+Bytecode (Java, Python)
+
+Python Source
+
+↓
+
+Python Bytecode
+
+↓
+
+Python Virtual Machine
+
+↓
+
+Machine Instructions
+
+↓
+
+CPU
+
+↓
+
+Electricity
