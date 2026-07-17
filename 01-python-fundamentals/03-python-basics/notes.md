@@ -349,3 +349,67 @@ Python Namespace
 └── numbers
 
 The namespace is like a dictionary of names that point to objects in memory.
+
+# TAKE NOTE
+
+We said RAM stores data.
+
+Now let's imagine this Python code:
+
+x = 10
+name = "Emmanuel"
+numbers = [1, 2, 3]
+
+Your computer might conceptually look like this:
+
+RAM
+─────────────────────────────────
+
+Address A
++----------------+
+| Integer: 10    |
++----------------+
+
+Address B
++----------------+
+| String         |
+| "Emmanuel"     |
++----------------+
+
+Address C
++----------------+
+| List           |
+| [1, 2, 3]      |
++----------------+
+
+Now, where are the variable names?
+
+Not inside those objects.
+
+Python keeps a separate mapping (often called a namespace):
+
+Namespace
+
+x       ─────────► Address A
+
+name    ─────────► Address B
+
+numbers ─────────► Address C
+
+So when you write:
+
+print(x)
+
+Python doesn't search RAM for something literally called x.
+
+It first looks in the namespace:
+
+"What object is the name x bound to?"
+
+The namespace answers:
+
+"The integer object at Address A."
+
+Then Python uses that object.
+
+This is why I kept saying that variables are names, not storage boxes.
