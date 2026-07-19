@@ -42,4 +42,4 @@ Shell
 
 ### Explain why virtual environments allow both projects to work on the same computer without conflict.
 
-Two separate venv will be created which will be isolated from each other. the different versions can be insatalled on the two venv separately and can run independently without breaking.
+Two separate venv will be created which will be isolated from each other. the different versions can be installed on the two venv separately and can run independently without breaking.
