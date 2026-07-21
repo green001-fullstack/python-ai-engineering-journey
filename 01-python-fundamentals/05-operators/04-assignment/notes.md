@@ -260,3 +260,41 @@ It would use much more memory.
 Python's reference model avoids that cost.
 
 If you actually want a copy, you ask for one explicitly.
+
+
+Immutable (int)
+
+Before
+
+x ───┐
+     │
+y ───┘
+      │
+      ▼
+      10
+
+After x += 5
+
+y ─────► 10
+
+x ─────► 15
+
+Mutable (list)
+
+Before
+
+a ───┐
+     │
+b ───┘
+      │
+      ▼
+   [1, 2]
+
+After a += [3]
+
+a ───┐
+     │
+b ───┘
+      │
+      ▼
+ [1, 2, 3]
