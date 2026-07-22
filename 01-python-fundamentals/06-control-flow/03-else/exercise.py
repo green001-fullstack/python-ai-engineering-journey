@@ -1,9 +1,9 @@
 # Exercise 1
 
-Create a variable age.
+# Create a variable age.
 
-If age is at least 18, print "Adult".
-Otherwise, print "Minor".
+# If age is at least 18, print "Adult".
+# Otherwise, print "Minor".
 
 # Solution
 age = 20
@@ -15,15 +15,15 @@ else:
 
 
 # Exercise 2
-Create a variable password.
+# Create a variable password.
 
-If it equals "python123":
+# If it equals "python123":
 
-Access Granted
+# Access Granted
 
-Otherwise:
+# Otherwise:
 
-Access Denied
+# Access Denied
 
 # Solution
 password = "python123"
@@ -35,14 +35,14 @@ else:
 
 
 # Exercise 3
-Create a variable marks.
+# Create a variable marks.
 
-Print:
+# Print:
 
-"Excellent" if marks are at least 90.
-"Good" if marks are at least 70.
-"Pass" if marks are at least 50.
-"Fail" otherwise.
+# "Excellent" if marks are at least 90.
+# "Good" if marks are at least 70.
+# "Pass" if marks are at least 50.
+# "Fail" otherwise.
 
 # Solution
 marks = 75
@@ -59,15 +59,15 @@ else:
 
 
 # Exercise 4
-Create a variable balance.
+# Create a variable balance.
 
-If the balance is enough to withdraw 5000:
+# If the balance is enough to withdraw 5000:
 
-Transaction Successful
+# Transaction Successful
 
-Otherwise:
+# Otherwise:
 
-Insufficient Funds
+# Insufficient Funds
 
 # Solution
 balance = 2000
@@ -80,7 +80,7 @@ else:
 
 # Exercise 5 (Tracing)
 
-Without running the code, determine the output.
+# Without running the code, determine the output.
 
 temperature = 12
 
