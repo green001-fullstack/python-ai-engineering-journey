@@ -25,8 +25,8 @@ weights = [0.1, 0.5, -0.3, 0.8]
 result = []
 
 def vector_matrix_multiplication(applicants, weights):
-    for i in applicants:
-        result.append(sum(x * y for x, y in zip(i, weights)))
+    for applicant in applicants:
+        result.append(sum(x * y for x, y in zip(applicant, weights)))
     return result
 print(vector_matrix_multiplication(applicants, weights))
 
