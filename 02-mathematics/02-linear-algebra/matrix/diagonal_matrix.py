@@ -22,4 +22,10 @@ def diagonal_matrix(values):
 values = [1, 2, 3]
 print(diagonal_matrix(values))
 
+# Numpy implementation of diagonal matrix
+import numpy as np
+
+D = np.diag([2, 3, 4])
+
+print(D)
 
